@@ -9,12 +9,12 @@ function Main() {
 	const [getaquote, setGetaquote] = useState(false);
 	const navigate = useNavigate();
 	return (
-		<div
-			className="bg-cover bg-center h-screen w-full bg-no-repeat pb-10"
-			style={{
-				backgroundImage: `url(${bgImage})`,
-			}}
-		>
+		<div className="flex flex-col items-center justify-center min-h-screen">
+			<img
+				src="https://raw.githubusercontent.com/SaiTejaLukka/MyPortfolio/main/src/assets/profile.jpg"
+				alt="Sai Teja"
+				className="w-40 h-40 rounded-full"
+			/>
 			<div>
 				<nav className=" w-full grid grid-cols-5 p-4 px-6">
 					<h1 className=" text-white text-2xl col-span-2">Sai Teja</h1>
