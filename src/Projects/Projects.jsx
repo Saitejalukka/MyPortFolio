@@ -1,4 +1,6 @@
 import React from "react";
+import image4 from "@/assets/image-4.jpg";
+import image5 from "@/assets/image-5.jpg";
 
 function Projects() {
 	return (
@@ -12,7 +14,7 @@ function Projects() {
 			<div className="w-full grid grid-cols-2 space-x-32 px-9 mt-4">
 				<div className="bg-white w-[80%] py-8 shadow-sm rounded-xl  flex flex-col justify-center items-center gap-y-3">
 					<img
-						src="../src/assets/image-4.jpg"
+						src={image4}
 						alt="image-4"
 						className=" rounded-xl"
 						width={160}
@@ -22,7 +24,7 @@ function Projects() {
 				</div>
 				<div className="bg-white w-[80%] py-8 shadow-sm rounded-xl p-1 flex flex-col justify-center items-center gap-y-3">
 					<img
-						src="../src/assets/image-5.jpg"
+						src={image5}
 						alt="image-5"
 						className=" rounded-xl"
 						width={160}

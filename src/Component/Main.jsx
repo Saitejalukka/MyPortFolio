@@ -5,7 +5,7 @@ import Projects from "../Projects/Projects";
 import { Link, useNavigate } from "react-router-dom";
 import Contact from "./Contactinfo";
 
-function Main() {
+function HomePageMainComponent() {
 	const [getaquote, setGetaquote] = useState(false);
 	const navigate = useNavigate();
 	return (
@@ -87,4 +87,4 @@ function Main() {
 	);
 }
 
-export default Main;
+export default HomePageMainComponent;
