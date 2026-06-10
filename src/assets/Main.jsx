@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import bgImage from "../assets/Main.tsx";
+import bgImage from "../assets/Main.jsx";
 import Service from "./Service";
 import Projects from "../Projects/Projects";
 import { Link, useNavigate } from "react-router-dom";
