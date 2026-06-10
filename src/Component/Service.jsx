@@ -1,4 +1,7 @@
 import React from "react";
+import image1 from "@/assets/image-1.jpg";
+import image2 from "@/assets/image-2.jpg";
+import image3 from "@/assets/image-3.jpg";
 
 function Service() {
 	return (
@@ -9,7 +12,7 @@ function Service() {
 			<div className="w-full grid grid-cols-3 space-x-32 px-9">
 				<div className="bg-white w-[80%] py-8 shadow-sm rounded-xl  flex flex-col justify-center items-center gap-y-3">
 					<img
-						src="../src/assets/image-1.jpg"
+						src={image1}
 						alt="image-1"
 						className=" rounded-xl"
 						width={160}
@@ -22,8 +25,8 @@ function Service() {
 				</div>
 				<div className="bg-white w-[80%] py-8 shadow-sm rounded-xl p-1 flex flex-col justify-center items-center gap-y-3">
 					<img
-						src="../src/assets/image-2.jpg"
-						alt="image-1"
+						src={image2}
+						alt="image-2"
 						className=" rounded-xl"
 						width={160}
 						height={50}
@@ -35,8 +38,8 @@ function Service() {
 				</div>
 				<div className="bg-white w-[80%] py-8 shadow-sm rounded-xl p-1 flex flex-col justify-center items-center gap-y-3">
 					<img
-						src="../src/assets/image-3.jpg"
-						alt="image-1"
+						src={image3}
+						alt="image-3"
 						className=" rounded-xl"
 						width={160}
 						height={50}
