@@ -1,5 +1,5 @@
 import React from "react";
-import Projects from "./projects";
+import Projects from "../Projects/Projects";
 import { Link } from "react-router-dom";
 
 function Project(){

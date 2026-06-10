@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import bgImage from "../assets/gettyimages-161737540-640x640.jpg";
 import Service from "./Service";
-import Projects from "./Projects";
+import Projects from "../Projects/Projects";
 import { Link, useNavigate } from "react-router-dom";
 import Contact from "./Contactinfo";
 
